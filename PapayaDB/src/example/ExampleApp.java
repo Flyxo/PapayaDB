@@ -23,6 +23,7 @@ public class ExampleApp extends AbstractVerticle {
 	@Override
 	public void start() {
 		Router router = Router.router(vertx);
+		// dd
 
 		// route to JSON REST APIs 
 		router.get("/all").handler(this::getAllDBs);
